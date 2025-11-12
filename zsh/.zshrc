@@ -32,9 +32,6 @@ alias ezadh='eza --long --header --icons -G -D -H'
 export PATH=/Users/davewyborn/.opencode/bin:$PATH
 
 
-alias start-ai="cat ~/davewyborn/Documents/1_Project/aiforthewin/AI_INSTRUTIONS.md"
-
-
 # FZF
 eval "$(fzf --zsh)"
 export FZF_DEFAULT_COMMAND="fd --hidden --strip-cwd-prefix --exclude .git"
