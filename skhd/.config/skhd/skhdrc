@@ -34,13 +34,28 @@
 # shift + alt - l : yabai -m window --warp east
 
 # ==============================================================================
-# APPLICATION LAUNCHING
+# APPLICATION LAUNCHING (HYPER KEY)
 # ==============================================================================
+# Hyper = Caps Lock (remapped via Karabiner to cmd+ctrl+alt+shift)
 
-# Quick launch applications
-# cmd + alt - b : open -a "Brave Browser"
-# cmd + alt - c : open -a "Claude"
-# cmd + alt - s : open -a "Slack"
+# Browsers & Communication
+hyper - c : open -a "Google Chrome"
+hyper - s : open -a "Slack"
+hyper - t : open -a "Tuta Mail"
+
+# Development
+hyper - b : open -a "Sublime Text"
+hyper - v : open -a "Visual Studio Code"
+hyper - g : open -na /Applications/Ghostty.app
+
+# Design & Productivity
+hyper - f : open -a "Framer"
+hyper - a : open -a "Asana"
+hyper - m : open -a "Miro"
+
+# Utilities
+hyper - i : open -a "Finder"
+hyper - u : open -a "Music"
 
 # ==============================================================================
 # CUSTOM COMMANDS
