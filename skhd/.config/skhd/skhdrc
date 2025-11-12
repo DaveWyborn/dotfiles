@@ -1,0 +1,57 @@
+# skhd configuration
+# See https://github.com/jackielii/skhd.zig for full documentation
+
+# ==============================================================================
+# KEYBOARD MAESTRO CONFLICTS
+# ==============================================================================
+# Document your Keyboard Maestro shortcuts here to avoid conflicts
+#
+# KM Shortcuts to avoid:
+# - cmd + shift + ... (add your KM shortcuts here)
+#
+
+# ==============================================================================
+# TERMINAL
+# ==============================================================================
+
+# Open terminal (ghostty)
+# cmd + shift - return : open -na /Applications/Ghostty.app
+
+# ==============================================================================
+# WINDOW MANAGEMENT
+# ==============================================================================
+
+# Focus window
+# alt - h : yabai -m window --focus west
+# alt - j : yabai -m window --focus south
+# alt - k : yabai -m window --focus north
+# alt - l : yabai -m window --focus east
+
+# Move window
+# shift + alt - h : yabai -m window --warp west
+# shift + alt - j : yabai -m window --warp south
+# shift + alt - k : yabai -m window --warp north
+# shift + alt - l : yabai -m window --warp east
+
+# ==============================================================================
+# APPLICATION LAUNCHING
+# ==============================================================================
+
+# Quick launch applications
+# cmd + alt - b : open -a "Brave Browser"
+# cmd + alt - c : open -a "Claude"
+# cmd + alt - s : open -a "Slack"
+
+# ==============================================================================
+# CUSTOM COMMANDS
+# ==============================================================================
+
+# Reload skhd config
+ctrl + alt + cmd - r : skhd --reload
+
+# ==============================================================================
+# NOTES
+# ==============================================================================
+# All shortcuts are currently commented out as examples
+# Uncomment and customize based on your workflow
+# Check against Keyboard Maestro shortcuts before enabling
