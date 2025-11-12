@@ -10,3 +10,4 @@
 	ui = true
 [core]
 	editor = emacs
+	excludesfile = /Users/davewyborn/.gitignore_global
